@@ -23,7 +23,7 @@ namespace CrmUi
         public SellerForm(Seller seller): this ()
         {
             Seller = seller;
-            SellerFormAddNameTextBox.Text = seller.Name;
+            SellerFormAddNameTextBox.Text = Seller.Name;
         }
 
         private void CustomerForm_Load(object sender, EventArgs e)

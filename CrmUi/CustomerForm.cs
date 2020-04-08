@@ -23,7 +23,7 @@ namespace CrmUi
         public CustomerForm (Customer customer): this()
         {
             Customer = customer;
-            CustomerFormAddNameTextBox.Text = customer.Name;
+            CustomerFormAddNameTextBox.Text = Customer.Name;
         }
 
 
